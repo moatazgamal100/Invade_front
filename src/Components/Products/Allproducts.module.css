@@ -1,0 +1,15 @@
+
+.cardTitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.title:hover {
+  white-space: normal;
+  overflow: visible;
+  position: relative;
+  z-index: 1;
+}
